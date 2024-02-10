@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SciChart2d />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SciChart2d from './components/SciChart2d.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SciChart2d
   }
 }
 </script>
